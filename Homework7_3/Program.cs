@@ -1,8 +1,8 @@
 ﻿// Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
-Console.Write("How many lines?");
+Console.Write("How many lines? ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("How many columns?");
+Console.Write("How many columns? ");
 int m = Convert.ToInt32(Console.ReadLine());
 
 int[,] numbers = new int[n, m];
